@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2.5rem;
+    color: chocolate;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn button {
+    padding: 20px;
+    font-size: 45px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.reset-game {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-game button {
+    padding: 20px;
+    font-size: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.5s ease-out;
+}
+
+
+
+button:active {
+    transform: scale(1.1);
+}
+
+#rock {
+    background-color: #FF0000
+}
+
+#paper {
+    background-color: #00CCFF;
+}
+
+#scissors {
+    background-color: #00FF00;
+}
+
+#reset-button {
+    background-color: #FF0000
+}
+
+#user-score {
+    color: #00CCFF;
+}
+
+#computer-score {
+    color: #FF0000;
+}
+
+#round-info {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        padding-top: 40px;
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    #round-info {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        gap: 5px
+    }
+
+    .btn button {
+        padding: 12px;
+        font-size: 32px;
+    }
+
+    .reset-game button {
+        padding: 12px;
+        font-size: 15px;
+    }
+}
