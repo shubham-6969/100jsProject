@@ -4,6 +4,6 @@ This repository is a collection of multiple small JavaScript projects, all organ
 
 ## Usage
 
-1. Clone the repository (replace `your-username` with your actual GitHub username):
+1. Clone the repository:
    ```bash
    git clone --recurse-submodules https://github.com/shubham-6969/100jsProject.git
